@@ -26,6 +26,9 @@ public class Sudoku {
             case 3:
                 count = 35;
                 break;
+            case 4:
+                count=40;
+                break;
         }
         int calloc_num = 30; //最初挖取的次数
         int count_fresh = 0; //重新寻找次数
